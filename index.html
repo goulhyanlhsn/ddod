@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>تحريك النص</title>
+    <style>
+        /* تنسيق النص وجعله يتحرك */
+        .moving-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff5733;
+            position: relative;
+            animation: moveText 5s infinite;
+        }
+
+        /* تعريف الحركة */
+        @keyframes moveText {
+            0% {
+                left: 0;
+            }
+            50% {
+                left: 50%;
+            }
+            100% {
+                left: 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    <a href="tel:+212617431098">0617431098</a>
+    <div class="moving-text">Knbghiiiiiiiiiiiik Houda</div>
 </body>
 </html>
